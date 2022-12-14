@@ -1,6 +1,6 @@
 const AddNewUser = ()=>{
     return <div className="title">
-         <h2>abhishek coder</h2>
+         <h2>abhimanyu coder</h2>
     </div>
 };
 
