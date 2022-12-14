@@ -1,0 +1,35 @@
+.admin {
+  padding: 2px;
+  width: 100vh;
+}
+.stDetail{
+    padding: 40px;
+   
+}
+.list-students{
+    background-color: rgb(245, 133, 133);
+    padding: 8px;
+}
+    table {
+
+        border-collapse: collapse;
+        background-color: rgb(245, 133, 133);
+        
+
+    }
+
+th {
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+    padding: 7px;
+    font-size: 20px;
+}
+ td {
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    border: 2px solid rgb(18, 18, 18);
+ }
+ tr{
+    padding: 10px;
+ }

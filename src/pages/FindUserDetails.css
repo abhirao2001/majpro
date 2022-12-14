@@ -1,0 +1,26 @@
+
+.user-detail{
+    font-size: 25px;
+    padding: 30px;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+input {
+    border: none;
+    background-color: rgb(86, 226, 238);
+    height: 1.8rem;
+    border-radius: 0.25em;
+    
+}
+input:focus{
+    outline-color: rgb(105, 100, 100);
+}
+ button{
+    border: none;
+    background-color: rgb(68, 95, 250);
+    height: 1.8rem;
+    border-radius: 0.25em;
+    cursor: pointer;
+ }
+
