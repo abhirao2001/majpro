@@ -1,6 +1,6 @@
 const LogsViewer = ()=>{
     return <div className="title"> 
-    <h1>i am abhimanyu.</h1>
+    <h1>hello hello</h1>
      </div>
 };
 
