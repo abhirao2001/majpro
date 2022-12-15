@@ -46,7 +46,7 @@ const AddNewUser = ()=>{
                            <input type="text" className="form-control" required/>
                          </div>
                          </div>
-                    <button className="btn btn-primary mt-3" onClick={ClickHandler}>Submit           </button>
+                    {/* <button className="btn btn-primary mt-3" onClick={ClickHandler}>Submit</button> */}
                 </div>
              </div>
 )};
