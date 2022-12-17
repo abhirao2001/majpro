@@ -1,6 +1,7 @@
 .admin {
   padding: 2px;
-  width: 100vh;
+  width: 100%;
+
 }
 .stDetail{
     padding: 40px;
@@ -11,9 +12,10 @@
     padding: 8px;
 }
     table {
-
+        
         border-collapse: collapse;
         background-color: rgb(245, 133, 133);
+        
         
 
     }
@@ -23,6 +25,7 @@ th {
     border: 2px solid black;
     padding: 7px;
     font-size: 20px;
+    align-items: center;
 }
  td {
     text-align: center;

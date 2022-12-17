@@ -5,16 +5,16 @@
     flex-direction: row;
 
 }
-input {
+.input-text{
     border: none;
     background-color: rgb(86, 226, 238);
     height: 1.8rem;
     border-radius: 0.25em;
 }
-input:focus{
+.input-text:focus{
     outline-color: rgb(105, 100, 100);
 }
- button{
+ .submit-btn{
     border: none;
     background-color: rgb(68, 95, 250);
     height: 1.8rem;

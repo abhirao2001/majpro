@@ -1,20 +1,34 @@
-import React from "react";
+import React from "react"
+import { useState } from "react";
 import './MakeManualEntry.css';
+// import ManualData from "./components/ManualData";
+
 
 
 const MakeManualEntry = ()=>{
-   const clickHandler = ()=>{
-    alert("submit")
-   }
+   const[enterUserId, setEnterUserId]= useState('')
+   const uIdChangeHandelar =(event)=>{
+     setEnterUserId(event.target.value)
+   };
+   const submitHandler =(event)=>{
+       event.preventDefault();
+     const entryData ={
+          data: enterUserId,
+     }
+     console.log(entryData);
+     setEnterUserId('');
+  
+};
+
     return (    
-    <div className="manual-entry">
+    <div onSubmit={submitHandler} className="manual-entry">
              <div>
                <h8>Make Manual Entry</h8>
              </div>
         <label>
-             <input type="text" placeholder="Enter Student Roll no." />
+             <input className="input-text" value={enterUserId} type="text" onChange={uIdChangeHandelar} placeholder="Enter userId" />
         </label>
-       <button className="login-btn"   onClick={clickHandler}>SUBMIT</button>   
+       <button className="submit-btn"   >SUBMIT</button>   
     </div>
 
 )};
