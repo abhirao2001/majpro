@@ -1,5 +1,5 @@
 import React from "react";  
- 
+const data = {date_time: "17/12/2022, 10AM" , doneby:"uId", place: "churk", mobileNo: 9919289304,makedone: "make change"} 
 const ManualData =() =>{
      return(
         <div className="data">  

@@ -12,7 +12,7 @@ const FindUserDetails = ()=>{
                <h8>Find User Details</h8>
              </div>
         <label>
-             <input className="input-text" type="text" placeholder="Enter userId" />
+             <input className="input-text" type="text" placeholder="Enter userId" /><br />
         </label>
        <button className="login-btn"  onClick={Popup}>SUBMIT</button>
          
