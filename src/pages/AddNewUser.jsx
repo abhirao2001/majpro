@@ -28,6 +28,7 @@ const AddNewUser = ()=>{
                          <div className="col-value">
                            <label>Branch</label>
                            <input type="text" className="form-control"  required/>
+                           
                          </div>                    
                          <div className="col-value">
                             <label>Session</label>

@@ -14,7 +14,7 @@ const Notice = ()=>{
             <input type="checkbox" /> III 
             <input type="checkbox" /> IV <br />    
             <input type="checkbox" /> BH-1 
-            <input type="checkbox" /> BH-2
+            <input type="checkbox" /> BH-2 
             <input type="checkbox" /> BH-3 
             <input type="checkbox" /> GH 
         </div>
